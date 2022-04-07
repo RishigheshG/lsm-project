@@ -303,6 +303,13 @@ h6{
   margin-bottom: 6rem;
 }
 
+.pricing .table{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
 .pricing .basic{
   width: 355px;
   height: 100%;
@@ -319,6 +326,12 @@ h6{
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
   clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+}
+
+.pricing .standard h3{
+  background-image: linear-gradient(to right, #535CF1, #A147E4);
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+  color: #fff;
 }
 
 .pricing .basic .price{
